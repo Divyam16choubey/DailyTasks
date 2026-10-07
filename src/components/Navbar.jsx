@@ -1,17 +1,17 @@
-import React from 'react'
-
-const Navbar = () => {
-  return (
-    <nav className='flex justify-around bg-indigo-900 text-white py-2'>
-        <div className="logo">
-            <span className='font-bold text-xl mx-8'>DailyTasks</span>
-        </div>
-      <ul className="flex gap-8 mx-9">
-        <li className='cursor-pointer hover:font-bold transition-all'>Home</li>
-        <li className='cursor-pointer hover:font-bold transition-all'>Your Tasks</li>
-      </ul>
+const Navbar = () => (
+  <header className="topbar">
+    <a className="brand" href="/" aria-label="DailyTasks home">
+      <span className="brand-mark">
+        <img src="/logo.png" alt="DailyTasks logo" />
+      </span>
+      <span>Daily<span>Tasks</span></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a className="active" href="#tasks">My tasks</a>
+      <a href="#focus">Focus</a>
     </nav>
-  )
-}
+    <div className="avatar" aria-label="Your profile">D</div>
+  </header>
+)
 
 export default Navbar
