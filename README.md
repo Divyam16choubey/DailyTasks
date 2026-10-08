@@ -1,16 +1,39 @@
-# React + Vite
+# DailyTasks
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DailyTasks is a simple to-do app for keeping track of everyday work. Add tasks, edit them, mark them as complete, and remove them when you are done.
 
-Currently, two official plugins are available:
+Your tasks are saved in the browser, so they stay available when you come back to the app.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Add, edit, and delete tasks
+- Mark tasks as complete or incomplete
+- Hide completed tasks when you want to focus
+- See total, completed, and remaining tasks
+- Track your progress with a completion percentage
+- Clear all completed tasks at once
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Built with
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- React Icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting started
+
+Make sure you have Node.js installed, then run:
+
+```bash
+npm install
+npm run dev
+```
+
+Open the local URL shown in the terminal to use the app.
+
+## Other commands
+
+```bash
+npm run build    # Create a production build
+npm run preview  # Preview the production build
+npm run lint     # Check the code for problems
+```
