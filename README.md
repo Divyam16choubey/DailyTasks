@@ -4,6 +4,10 @@ DailyTasks is a simple to-do app for keeping track of everyday work. Add tasks, 
 
 Your tasks are saved in the browser, so they stay available when you come back to the app.
 
+## Live demo
+
+Try DailyTasks here: [daily-tasks-web.netlify.app](https://daily-tasks-web.netlify.app/)
+
 ## Features
 
 - Add, edit, and delete tasks
@@ -29,6 +33,10 @@ npm run dev
 ```
 
 Open the local URL shown in the terminal to use the app.
+
+## Deployment
+
+This project is deployed on Netlify. The live site is updated automatically whenever new changes are pushed to the `main` branch on GitHub.
 
 ## Other commands
 
